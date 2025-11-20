@@ -1,0 +1,163 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>America First: Reinvigorating Young Americans</title>
+  <meta name="description" content="Hogan for Congress 2026 – A bold plan to put young Americans first with jobs, homes, and wealth.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0A1F3D;--red:#E31837;--white:#FFFFFF;--gray:#F7F9FC;}
+    *,*::before,*::after{box-sizing:border-box;}
+    body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--navy);color:#fff;line-height:1.6;overflow-x:hidden;}
+    header{position:relative;padding:100px 20px 60px;text-align:center;background:linear-gradient(to bottom,rgba(10,31,61,0.95),rgba(10,31,61,1));}
+    .sticky-header{position:fixed;top:0;left:0;width:100%;background:var(--navy);padding:15px 20px;box-shadow:0 4px 20px rgba(0,0,0,0.4);z-index:1000;transform:translateY(-100%);transition:transform .4s ease;}
+    .sticky-header.visible{transform:translateY(0);}
+    .logo{font-size:2.2rem;font-weight:900;letter-spacing:2px;background:linear-gradient(90deg,var(--red),#fff,var(--red));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+    h1{font-size:clamp(2.5rem,8vw,4.5rem);font-weight:900;margin:0;letter-spacing:-2px;}
+    .subtitle{font-size:1.35rem;font-weight:500;opacity:0.9;margin:20px 0 0;}
+    .lead{max-width:860px;margin:60px auto 80px;font-size:1.4rem;text-align:center;opacity:0.95;padding:0 20px;}
+    .eagle{font-size:5rem;margin:60px 0;opacity:0.9;}
+    .container{max-width:1150px;margin:0 auto;padding:0 20px;}
+    h2{font-size:2.6rem;font-weight:800;text-align:center;margin:100px 0 60px;letter-spacing:-1px;}
+    table{width:100%;border-collapse:separate;border-spacing:0 16px;margin:40px 0;}
+    th{background:rgba(255,255,255,0.12);padding:20px;text-transform:uppercase;font-size:0.9rem;letter-spacing:1.8px;font-weight:600;backdrop-filter:blur(12px);}
+    tr{opacity:0;transform:translateY(40px);transition:all .6s cubic-bezier(0.16,1,0.3,1);}
+    tr.visible{opacity:1;transform:translateY(0);}
+    td{background:rgba(255,255,255,0.98);color:#111;padding:24px;font-size:1.07rem;border-radius:8px;box-shadow:0 8px 25px rgba(0,0,0,0.15);transition:all .3s;}
+    tr:hover td{background:var(--red);color:#fff;transform:translateY(-4px);box-shadow:0 15px 35px rgba(227,24,55,0.4);}
+    tr td:first-child{font-weight:800;color:var(--navy);width:28%;font-size:1.15rem;}
+    .counter{font-size:3.5rem;font-weight:900;color:var(--red);margin:10px 0;}
+    .bottom-line{background:var(--red);padding:50px 20px;text-align:center;font-size:2.2rem;font-weight:800;letter-spacing:-0.5px;}
+    footer{padding:100px 20px;text-align:center;background:rgba(0,0,0,0.4);}
+    .hogan{font-size:4.5rem;font-weight:900;letter-spacing:5px;background:linear-gradient(90deg,var(--red),#fff,var(--red));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:20px 0;}
+    .menu-btn{display:none;position:fixed;top:20px;right:20px;z-index:1001;background:var(--red);color:#fff;border:none;padding:12px 16px;border-radius:8px;font-size:1.5rem;cursor:pointer;}
+    @media(max-width:768px){
+      .menu-btn{display:block;}
+      nav{position:fixed;top:0;left:-100%;width:100%;height:100vh;background:var(--navy);transition:left .4s;padding-top:100px;}
+      nav.active{left:0;}
+      nav a{display:block;padding:20px;font-size:1.5rem;text-align:center;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>America First<br>Reinvigorating Young Americans</h1>
+    <p class="subtitle">Jobs. Homes. Wealth. Future. For Americans only.</p>
+    <div class="logo">HOGAN FOR CONGRESS 2026</div>
+  </header>
+
+  <div class="sticky-header" id="sticky">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;">
+      <div class="logo">HOGAN 2026</div>
+      <button class="menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="lead">
+      A pro-worker, pro-family, America-First plan to give the next generation what they were promised: good jobs, affordable homes, and real wealth — all paid for by putting our own citizens first.
+    </p>
+
+    <div class="eagle">Eagle</div>
+
+    <h2>America First Policy Levers</h2>
+    <table id="policies">
+      <tr><th>Policy</th><th>5-Year Plan</th><th>Impact</th></tr>
+      <tr>
+        <td>1. American Renewal Zones</td>
+        <td>100 distressed counties → full tax holiday + 50% hires under-35 or bottom 40% Americans<br>$50B American Growth Fund</td>
+        <td><span class="counter" data-target="2000000">0</span>+ new jobs in the heartland</td>
+      </tr>
+      <tr>
+        <td>2. Land & Homes for Young Americans</td>
+        <td>Federal Land Bank sells land only to U.S. citizens under 40<br>2% 50-year mortgages</td>
+        <td>Homeownership 25–34: <span class="counter" data-target="50">37</span>% → 50%+</td>
+      </tr>
+      <tr>
+        <td>3. STEM & Trades Corps – Americans Only</td>
+        <td>Free community college + full loan forgiveness for U.S.-born grads<br>$120B over 10 years</td>
+        <td><span class="counter" data-target="4000000">0</span>+ high-skill credentials</td>
+      </tr>
+      <tr>
+        <td>4. Buy American Industrial Policy</td>
+        <td>Strict domestic content + $250B credit facility<br>Americans hired first</td>
+        <td><span class="counter" data-target="1500000">0</span> factory jobs @ $78K avg</td>
+      </tr>
+      <tr>
+        <td>5. Infrastructure Hyperdrive</td>
+        <td>$1T maglev & fiber<br>40% apprentices under 30</td>
+        <td><span class="counter" data-target="600000">0</span> blue-collar jobs</td>
+      </tr>
+      <tr>
+        <td>6. Patriot Savings Plan</td>
+        <td>100% federal match up to $2K/yr for under-35s</td>
+        <td>Median net worth under-35 → $<span class="counter" data-target="135000">28000</span></td>
+      </tr>
+      <tr>
+        <td>7. Force Colleges to Cut Tuition</td>
+        <td>Cut tuition 5%/yr or lose all federal funds</td>
+        <td>College affordable again — no excuses</td>
+      </tr>
+      <tr>
+        <td>8. Endowment Clawback</td>
+        <td>Billion-dollar endowments fund full American student debt relief</td>
+        <td>Debt gone. Paid for by the schools that caused it.</td>
+      </tr>
+    </table>
+
+    <div class="bottom-line">
+      Young Americans First.<br>
+      Jobs. Homes. Future.<br>
+      America First — Always.
+    </div>
+
+    <footer>
+      <div class="hogan">HOGAN FOR CONGRESS 2026</div>
+      <p style="font-size:1.4rem;margin:20px 0 0;">For American workers. For American families.<br>Let’s make the 2030s roar again.</p>
+    </footer>
+  </div>
+
+<script>
+  // Sticky header
+  const sticky = document.getElementById('sticky');
+  window.addEventListener('scroll', () => {
+    sticky.classList.toggle('visible', window.scrollY > 300);
+  });
+
+  // Mobile menu
+  document.querySelector('.menu-btn').addEventListener('click', () => {
+    document.querySelector('nav')?.classList.toggle('active');
+  });
+
+  // Scroll reveal + counters
+  const counters = document.querySelectorAll('.counter');
+  const options = {threshold: 0.7};
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.parentElement.parentElement.classList.add('visible');
+        const counter = entry.target;
+        const target = +counter.dataset.target;
+        const speed = 80;
+        const increment = target / speed;
+        let current = 0;
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            counter.textContent = target.toLocaleString();
+            clearInterval(timer);
+          } else {
+            counter.textContent = Math.floor(current).toLocaleString();
+          }
+        }, 30);
+        observer.unobserve(counter);
+      }
+    });
+  }, options);
+  counters.forEach(c => observer.observe(c));
+  document.querySelectorAll('tr').forEach(tr => observer.observe(tr));
+</script>
+</body>
+</html>
